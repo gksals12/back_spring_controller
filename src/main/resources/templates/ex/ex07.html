@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>상품정보</title>
+</head>
+<body>
+    상품정보!
+    <h1 th:text="'상품이름 ' + ${productVO.getProductName()}"></h1>
+    <h1 th:text="'상품가격: ' + ${productVO.getProductPrice()}"></h1>
+</body>
+</html>
