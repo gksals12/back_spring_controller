@@ -21,3 +21,11 @@ spring:
   thymeleaf:
     cache: false
     suffix: .html
+  mvc:
+    cors:
+      mappings:
+        "/**":
+          allowed-origins: "http://localhost:3000"
+          allowed-methods: "*"
+          allowed-headers: "*"
+          allow-credentials: true

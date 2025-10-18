@@ -6,6 +6,6 @@
     </settings>
 
     <typeAliases>
-<!--        <typeAlias type="com.app.mybatis.domain.MemberVO" alias="MemberVO" />-->
+        <typeAlias type="com.app.domain.vo.MemberVO" alias="MemberVO" />
     </typeAliases>
 </configuration>
