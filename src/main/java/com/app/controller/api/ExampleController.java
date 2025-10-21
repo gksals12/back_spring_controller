@@ -1,4 +1,4 @@
-package com.app.controller.apis;
+package com.app.controller.api;
 
 import com.app.domain.vo.ProductVO;
 import com.app.domain.vo.UserVO;

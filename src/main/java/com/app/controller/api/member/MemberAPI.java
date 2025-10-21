@@ -1,13 +1,11 @@
-package com.app.controller.apis.member;
+package com.app.controller.api.member;
 
 import com.app.controller.mapper.MemberMapper;
 import com.app.domain.vo.MemberVO;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.ibatis.annotations.Delete;
 import org.springframework.web.bind.annotation.*;
 
-import java.awt.*;
 import java.util.Optional;
 
 @RestController

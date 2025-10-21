@@ -7,5 +7,6 @@
 
     <typeAliases>
         <typeAlias type="com.app.domain.vo.MemberVO" alias="MemberVO" />
+        <typeAlias type="com.app.domain.vo.PostVO" alias="PostVO" />
     </typeAliases>
 </configuration>
